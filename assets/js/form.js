@@ -7,6 +7,8 @@ const submitButton = document.getElementById('submit');
 //Functions
 submitButton.addEventListener('click', function (event)
 {
+    event.preventDefault()
+
     const blogPost = 
     {
         username: username.value,

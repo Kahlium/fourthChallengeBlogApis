@@ -2,21 +2,32 @@
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    margin: 0px;
+    padding: 0px;
 }
 
 body
 {
     display: flex;
+    margin: auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
 }
 
 /*---------DARK MODE----------*/
 .dark
 {
-    background-color: darkslategray;
+    color: white;
+    background-color: rgb(32, 31, 44);
+    height: 100vmax;
+    width: 100vmax;
 }
 
 /*---------LIGHT MODE----------*/
 .light
 {
     background-color: white;
+    height: 100vmax;
+    width: 100vmax;
 }
