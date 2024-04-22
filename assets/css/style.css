@@ -1,0 +1,17 @@
+body
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+/*---------DARK MODE----------*/
+.dark
+{
+    background-color: darkslategray;
+}
+
+/*---------LIGHT MODE----------*/
+.light
+{
+    background-color: white;
+}

@@ -4,6 +4,7 @@ const title = document.getElementById('title');
 const blogContent = document.getElementById('content');
 const submitButton = document.getElementById('submit');
 
+//Functions
 submitButton.addEventListener('click', function (event)
 {
     const blogPost = 
