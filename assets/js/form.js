@@ -8,7 +8,7 @@ const submitButton = document.getElementById('submit');
 submitButton.addEventListener('click', function (event)
 {
     event.preventDefault()
-
+    let currentPosts = JSON.parse(localStorage.getItem('blogPost') || "[]");
     const blogPost = 
     {
         username: username.value,
@@ -21,8 +21,9 @@ submitButton.addEventListener('click', function (event)
         window.alert("Please fill out all areas to submit your blog post");
     } else
     {
-        localStorage.setItem('blogPost', JSON.stringify(blogPost))
-        console.log(blogPost)
+        currentPosts.push(blogPost)
+        localStorage.setItem('blogPost', JSON.stringify(currentPosts))
         window.location.href = "blog.html"        
     };
+    
 })
