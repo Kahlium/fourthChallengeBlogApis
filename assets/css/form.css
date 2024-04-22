@@ -1,3 +1,8 @@
+.landing
+{
+    text-align: center;
+}
+
 #submit
 {
     border: none;
@@ -7,10 +12,4 @@
     padding: 16px 32px;
     font-size: 18px;
     text-align: center;
-}
-
-.inputBox
-{
-    display: flex;
-    justify-content: center;
 }

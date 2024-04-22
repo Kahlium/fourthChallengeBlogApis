@@ -16,10 +16,12 @@ function renderPosts()
     {
         const post = currentPosts[i]
 
-        const li = document.createElement('li');
-        li.textContent = post.title;
+        const div = document.createElement('div');
+        div.classList.add('postContainer')
 
-        blogPostList.appendChild(li);
+        div.innerHTML = `<h2>Title: ${post.title}</h2> <p>Content: ${post.blogContent}</p> <p> Author: ${post.username}</p>`
+
+        blogPostList.appendChild(div);
     }
 }
 

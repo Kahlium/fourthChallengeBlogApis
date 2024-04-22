@@ -1,14 +1,17 @@
 *
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
 }
 
 body
 {
     display: flex;
     margin: auto;
-    text-align: center;
+}
+
+label
+{
+    display: block;    
 }
 
 /*---------DARK MODE----------*/
