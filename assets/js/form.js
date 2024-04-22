@@ -6,14 +6,19 @@ const submitButton = document.getElementById('submit');
 
 submitButton.addEventListener('click', function (event)
 {
-    event.preventDefault();
     const blogPost = 
     {
         username: username.value,
         title: title.value,
         blogContent: blogContent.value
-    }
+    };
 
-    localStorage.setItem('blogPost', JSON.stringify(blogPost))
-    console.log(blogPost)
+    if (username.value === "" || title.value === "" || blogContent.value === "")
+    {
+        window.alert("Please fill out all areas to submit your blog post");
+    } else
+    {
+        localStorage.setItem('blogPost', JSON.stringify(blogPost))
+        console.log(blogPost)        
+    };
 })
