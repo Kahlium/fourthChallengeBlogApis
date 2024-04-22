@@ -11,5 +11,6 @@
 
 .inputBox
 {
-    
+    display: flex;
+    justify-content: center;
 }

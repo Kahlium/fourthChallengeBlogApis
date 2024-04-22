@@ -22,6 +22,7 @@ submitButton.addEventListener('click', function (event)
     } else
     {
         localStorage.setItem('blogPost', JSON.stringify(blogPost))
-        console.log(blogPost)        
+        console.log(blogPost)
+        window.location.href = "blog.html"        
     };
 })
