@@ -2,7 +2,7 @@
 const darkLightSwitch = document.getElementById('modeSwitch');
 const container = document.querySelector('.container');
 
-let mode = JSON.parse(localStorage.getItem('mode')); //Set as local storage value
+let mode = JSON.parse(localStorage.getItem('mode'));
 keepTheme()
 
 //Functions

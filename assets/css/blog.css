@@ -1,9 +1,12 @@
-
-
 .postContainer
 {
     margin: 24px;
     border: 2px solid rgb(165, 165, 165);
     border-radius: 8px;
     padding: 20px;
+}
+
+.blogContainer
+{
+    min-height: 100vh;
 }
