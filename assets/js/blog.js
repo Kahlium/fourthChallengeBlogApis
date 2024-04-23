@@ -19,7 +19,7 @@ function renderPosts()
         const div = document.createElement('div');
         div.classList.add('postContainer')
 
-        div.innerHTML = `<h2>Title: ${post.title}</h2> <p>Content: ${post.blogContent}</p> <p> Author: ${post.username}</p>`
+        div.innerHTML = `<h2>${post.title}</h2> <p>${post.blogContent}</p> <h3> Author: ${post.username}</h3>`
 
         blogPostList.appendChild(div);
     }
